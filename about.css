@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: #111;
+}
+
+nav .logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #0ef;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  gap: 50px;
+}
+
+.about-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #0ef;
+  object-fit: cover;
+  box-shadow: 0 0 30px #0ef, 0 0 60px purple;
+}
+
+.about-text {
+  max-width: 60%;
+}
+
+.about-text h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.about-text h2 span {
+  color: #0ef;
+}
+
+.about-text h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+  color: #ddd;
+}
+
+.about-text .btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #0ef;
+  color: #000;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-text .btn:hover {
+  background: #00c3ff;
+}
